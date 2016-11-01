@@ -24,13 +24,9 @@ class GenericRequest extends TStruct {
    */
   public $methodName = null;
   /**
-   * @var string[]
+   * @var string
    */
-  public $parameterTypes = null;
-  /**
-   * @var string[]
-   */
-  public $argv = null;
+  public $methodParams = null;
 
   protected $structSpec = [
     1 => [
@@ -42,20 +38,8 @@ class GenericRequest extends TStruct {
       'type' => TType::STRING,
       ],
     3 => [
-      'var' => 'parameterTypes',
-      'type' => TType::LST,
-      'etype' => TType::STRING,
-      'elem' => [
-        'type' => TType::STRING,
-        ],
-      ],
-    4 => [
-      'var' => 'argv',
-      'type' => TType::LST,
-      'etype' => TType::STRING,
-      'elem' => [
-        'type' => TType::STRING,
-        ],
+      'var' => 'methodParams',
+      'type' => TType::STRING,
       ],
     ];
 
