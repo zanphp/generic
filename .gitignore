@@ -170,5 +170,5 @@ vendor/
 composer.phar
 composer.lock
 phpunit.phar
-sdk/
+# sdk/
 gen-java/
