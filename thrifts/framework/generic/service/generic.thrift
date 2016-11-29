@@ -6,12 +6,6 @@ struct GenericRequest {
     3:optional string methodParams;
 }
 
-struct GenericResponse {
-    1:optional i32 code; // 200 success
-    2:optional string message;
-    3:optional string data;
-}
-
 service GenericService {
-    GenericResponse invoke(1:GenericRequest request);
+    string invoke(1:GenericRequest request);
 }

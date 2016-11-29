@@ -26,7 +26,7 @@ class GenericService extends TService implements GenericServiceInterface {
 
   /**
    * @param \Com\Youzan\Nova\Framework\Generic\Service\GenericRequest $request
-   * @return \Com\Youzan\Nova\Framework\Generic\Service\GenericResponse
+   * @return string
    */
   public function invoke(\Com\Youzan\Nova\Framework\Generic\Service\GenericRequest $request)
   {

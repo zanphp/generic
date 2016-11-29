@@ -30,8 +30,7 @@ class GenericService extends TSpecification {
   protected $outputStructSpec = [
 
     'invoke' => [
-      'type' => TType::STRUCT,
-      'class' => '\Com\Youzan\Nova\Framework\Generic\Service\GenericResponse',
+      'type' => TType::STRING,
     ],
   ];
   protected $exceptionStructSpec = [
