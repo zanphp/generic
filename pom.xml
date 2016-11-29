@@ -7,7 +7,7 @@
 
 <groupId>com.youzan.nova.framework.framework-generic</groupId>
 <artifactId>nova-generic-idl</artifactId>
-<version>1.0.1</version>
+<version>1.0.2</version>
 
 <distributionManagement>
     <repository>
