@@ -8,6 +8,7 @@
       "Com\\Youzan\\Nova\\Framework\\Generic\\": "sdk/gen-php/Framework/Generic"
     },
     "classmap": [],
+    "prefer-stable": false,
     "minimum-stability": "dev"
   }
 }
